@@ -1,0 +1,34 @@
+.BannerArea {
+    height: 10vh;
+    background: linear-gradient(rgba(240, 240, 240, 0.144), rgba(255, 255, 255, 0.336));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(105, 165, 245);
+
+    .Container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        font-size: 1.5rem;
+    
+        .AnimatedText {
+            animation: slide 5s linear infinite;
+          }
+    
+        @keyframes slide {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+    
+    
+    }
+
+    .Titulo {
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+}

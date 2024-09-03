@@ -1,0 +1,70 @@
+.MiniBanners {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+    align-items: center;
+
+    img {
+        max-height: 185px;
+    }
+
+    .CardCentral {
+        background-color: #f2745f;
+        text-align: center;
+        padding: 30px;
+        color: #FFF;
+
+        h2 {
+            max-width: 70%;
+            display: inline-block;
+        }
+
+        a {
+            text-decoration: none;
+            color: #631406;
+            font-weight: bold;
+        }
+    }
+
+    .CardEsquerdo {
+        background-color: #51bfc7;
+        text-align: left;
+        padding: 30px;
+        color: #FFF;
+
+        h2 {
+            max-width: 70%;
+            display: inline-block;
+        }
+
+        a {
+            text-decoration: none;
+            color: #631406;
+            font-weight: bold;
+        }
+    }
+
+    .CardDireito {
+        background-color: #51bfc7;
+        text-align: right;
+        padding: 30px;
+        color: #FFF;
+
+        h2 {
+            max-width: 70%;
+            display: inline-block;
+        }
+
+        a {
+            text-decoration: none;
+            color: #631406;
+            font-weight: bold;
+        }
+    }
+}
+
+.Links {
+    text-align: center;
+    margin: 1.5rem 0;
+}

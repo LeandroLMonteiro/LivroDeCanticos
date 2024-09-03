@@ -1,0 +1,73 @@
+.Link {
+    text-align: center;
+    background-color: #1b1ed6;
+
+    ul {
+        padding: 0;
+
+        li {
+            list-style: none;
+            display: inline-block;
+            margin: 0 8px;
+
+            &::after {
+                content: "";
+                display: block;
+                width: 0;
+                height: 2px;
+                background: #51f107;
+                transition: width 0.3s;
+            }
+
+            &:hover::after {
+                width: 100%;
+
+                //transition: width .3s;
+           
+            }
+
+            a {
+                text-decoration: none;
+                font-size: 1.5rem;
+                background-color: #1b1ed6;
+
+                &:visited {
+                    color: #fff;
+                }
+            }
+        }
+        .Botao {
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-align: center;
+            background-color:  #1b1ed6;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 600;
+            border: #000 solid 1px;
+            transition: all linear 160ms;
+            cursor: pointer;
+            margin: 1%;
+
+            &:hover {
+                background-color: #fff;
+                color: #1b1ed6;
+            }
+        
+        }
+        .Label {
+            display: inline-block;
+            padding: 10px 20px;
+            text-align: center;
+            color: #1b1ed6;
+            font-size: 20px;
+            font-weight: 600;
+            transition: all linear 160ms;
+            cursor: pointer;
+            margin: 1%;
+        }
+    }
+
+}
+
